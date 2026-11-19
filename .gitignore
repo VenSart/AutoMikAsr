@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.vscode/*.log
+.idea/
+.DS_Store
+Thumbs.db
+
+# Application data
+uploads/
+exports/
+data/*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
